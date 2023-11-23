@@ -1,0 +1,120 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.main-container{
+    background-color: #063c47;
+    padding: 0;
+    margin: 0;
+}
+
+.about_me h2{
+    color: 	#fb9590;
+    text-align: center;
+}
+
+.about_me_top h2{
+    padding: 30px;
+}
+
+.about_me{
+    background-color: 	#fff0e3;
+    color: 	#063c47;
+    margin-top: 0;
+}
+
+.about_me p{
+    text-align: center;
+}
+
+.about_me_btm{
+    display: flex;
+}
+
+.about_me dt{
+    font-weight: bold;
+}
+
+.education{
+    flex: 1;
+    padding-left: 10px;
+}
+
+.work{
+    flex: 1;
+    padding-right: 10px;
+}
+
+.first_div{
+    background-color: 	#063c47;
+    color: 	#fff0e3;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.first_div h1{
+    font-family: 'Borel', cursive;
+    font-size: 50px;
+}
+
+.cloud_div img{
+    height: 45%;
+    width: 45%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+}
+
+.first_div{
+    display: flex;
+    flex-direction: column;
+}
+
+.cloud_div{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cloud_div a{
+    color: #fff0e3;
+    text-decoration: none;
+}
+
+.skills{
+    background-color: 	#fb9590;
+    color: 	#063c47;
+}
+
+.skills h2{
+    color: #fff0e3;
+    padding-top: 20px;
+}
+
+.skills ul{
+    text-align: center;
+}
+
+.skills li{
+    display: inline-block;
+    padding: 8px;
+}
+
+.projects{
+    display: flex;
+}
+
+.project{
+    background-color: #063c47;
+    flex: 1;
+}
+
+div footer{
+    height: 60px;
+    background-color: #063c47;
+    padding: 0;
+    margin: 0;
+}
