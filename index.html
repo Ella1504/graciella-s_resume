@@ -5,28 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="styles.css" rel="stylesheet">
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Borel&family=Libre+Baskerville&display=swap');</style>
+        @import url('https://fonts.googleapis.com/css2?family=Borel&family=Libre+Baskerville&display=swap');
+    </style>
     <title>Graciella's Resume</title>
+    <script src="script.js"></script>
 </head>
 <body>
     <div class="main-container">
+        <button id="language">French</button>
         <div class="first_div">
-            <h1>I'm Graciella Toulassi</h1>
+            <h1 id="name">I'm Graciella Toulassi</h1>
             <div class="cloud_div">
                 <img src="media/cloud1.png" alt="cloud image">
                 <a href="https://www.vecteezy.com/free-png/white" target="_blank">White PNGs by Vecteezy</a>
             </div>
-            <h2>and I'm a programmer</h2>
+            <h2 id="programmer">and I'm a programmer</h2>
         </div>
         <div class="about_me">
             <div class="about_me_top">
-                <h2>A little about me</h2>
-                <p>I am a second-year Computer Science student studying in a 3 year program at Dawson College 
+                <h2 id="aboutMe">A little about me</h2>
+                <p id="aboutMeTxt">I am a second-year Computer Science student studying in a 3 year program at Dawson College 
                     and I am currently looking for an internship where I can  learn new valuable skills.</p>
             </div>
             <div class="about_me_btm">
                 <div class="education">
-                    <h2>Education</h2>
+                    <h2 id="ed">Education</h2>
                     <dl>
                             <dt>DEC, Computer Science Technology, Dawson College</dt>
                             <dl>
@@ -83,20 +86,16 @@
                 </ul>
                 <h2>Some of My Projects</h2>
                 <div class="projects">
-                    <div class="project">
-
-                    </div>
-                    <div class="project">
-
-                    </div>
-                    <div class="project">
-
-                    </div>
+                    <ul>
+                        <li><a href="https://sonic.dawsoncollege.qc.ca/~2142371/320/fall2023_tic-tac-toe_web-dev/index.html" target="_blank">Tic Tac Toe game</a></li>
+                        <li><a href="https://sonic.dawsoncollege.qc.ca/~2142371/320/rest_api_lab/student-package/index.html" target="_blank">Epic Image Browser</a></li>
+                        <li><a href="https://sonic.dawsoncollege.qc.ca/~2142371/320/fall2023_web_dev_group_project/index.html" target="_blank">Colour game</a></li>
+                    </ul>
                 </div>
             </div>
         </div>
         <footer>
-            <p> @Graciella Toulassi <a href="https://github.com/Ella1504" target="_blank">Github</a></p>
+            <p> @Graciella Toulassi <a href="https://github.com/Ella1504" target="_blank">Github</a> <a href="https://gitlab.com/Ella_0415" target="_blank">Gitlab</a></p>
         </footer>
     </div>
 </body>

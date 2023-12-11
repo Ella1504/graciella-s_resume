@@ -82,6 +82,7 @@ body{
 .cloud_div a{
     color: #fff0e3;
     text-decoration: none;
+    font-size: 10px;
 }
 
 .skills{
@@ -103,18 +104,37 @@ body{
     padding: 8px;
 }
 
-.projects{
-    display: flex;
+.projects ul{
+    text-align: center;
 }
 
-.project{
-    background-color: #063c47;
-    flex: 1;
+.projects li{
+    display: inline-block;
+    padding: 8px;
+}
+
+.projects li a{
+    text-decoration: none;
+}
+
+#language{
+    border-radius: 50%;
+    height: 30px;
 }
 
 div footer{
+    text-align: center;
     height: 60px;
     background-color: #063c47;
     padding: 0;
     margin: 0;
+}
+
+footer p{
+    color: #fff0e3;
+}
+
+footer a{
+    text-decoration: none;
+    color: #fb9590;
 }
